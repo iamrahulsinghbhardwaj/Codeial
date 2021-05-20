@@ -6,12 +6,13 @@
   color: white;
   box-shadow: 1px 1px 1px 1px lightgrey; }
   #layout-header nav .mini-logo p {
-    margin: 10px;
+    margin: 5px;
     font-size: 1.4rem;
     font-weight: bold; }
   #layout-header nav .auth-links ul {
-    margin: 7% 5px;
-    display: flex; }
+    margin: 5% 5px;
+    display: flex;
+    list-style: none; }
     #layout-header nav .auth-links ul li {
       margin-right: 10px; }
   #layout-header nav a {
