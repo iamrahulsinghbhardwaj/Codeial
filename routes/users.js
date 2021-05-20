@@ -4,7 +4,7 @@ const passport=require('passport');
 
 const usercontroller=require('../controllers/user_controller'); 
 
-router.get('/profile',passport.checkAuthentication,usercontroller.profile);
+router.get('/profile/:id',passport.checkAuthentication,usercontroller.profile);
 
 // router.get('/profile',usercontroller.profile);
 
