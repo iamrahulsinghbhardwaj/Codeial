@@ -23,7 +23,7 @@ module.exports.profile=function(req,res){
 //render the signup page
 module.exports.signUp=function(req,res){
 
-   //if user if already signed up Without Mongo Store, this was the problem we faced
+   //if user if already signed up Without Mongo Store, this was the problem  faced
    if(req.isAuthenticated()){
       return res.redirect('/users/profile');
    } 
