@@ -13,6 +13,8 @@ const { pass } = require('./config/mongoose');
 const sassMiddleware=require('node-sass-middleware');
 //const MongoStore = require('connect-mongo').session();//MongoDB session store for Connect and Express 
 
+const flash=require('connect-flash');
+
 app.use(sassMiddleware({
     src:'./assests/scss',
     dest:'./assests/css', //destination
