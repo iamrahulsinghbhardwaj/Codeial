@@ -24,6 +24,7 @@ module.exports.update = function(req, res){
 module.exports.signUp=function(req,res){
 
    //if user if already signed up Without Mongo Store, this was the problem  faced
+   
    if(req.isAuthenticated()){
       return res.redirect('/users/profile');
    } 
