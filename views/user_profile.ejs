@@ -1,8 +1,6 @@
 <link rel="stylesheet" href="/css/user_profile.css">
-        <h1>
-            Codeil/<%= title %>
-        </h1>
 
+        <img src="<%=user.avatar %>" alt="<%=user.name%>" width="150">
 
         <% if(user.id == profile_user.id){ %>
 
@@ -14,7 +12,7 @@
                 <input type="email" name="email" placeholder="Your Email" value="<%= profile_user.email %>" required>
                 
                 <input type="file" name="avatar" placeholder="Profile Picture">
-                 
+
                 <input type="submit"  value="Update">
 
             </form>

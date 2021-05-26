@@ -25,10 +25,16 @@ app.use(sassMiddleware({
 }));
 
 app.use(express.urlencoded({extended: true})); 
-app.use(cookieParser());
-app.use(express.static('./assests'));
-app.use(expressLayouts);
 
+app.use(cookieParser());
+
+
+app.use(express.static('./assests'));
+//make the upload path availabe to the browser
+app.use('/uploads',express.static(__dirname +'/uploads'));
+
+
+app.use(expressLayouts);
 //extract style and scripts from sub pages into layouts
 app.set('layout extractStyles',true);
 app.set('layout extractScripts',true);
