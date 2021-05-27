@@ -6,7 +6,7 @@ const User=require('../models/user');
 
 let opts={
     jwtFromRequest:ExtractJWT.fromAuthHeaderAsBearerToken,
-    secretOrKey:'Codeial'
+    secretOrKey:'codeial'
 }
 
 passport.use(new JWTstrategy(opts,function(jwtPayLoad,done){
