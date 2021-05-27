@@ -14,7 +14,7 @@ module.exports.create= async function(req,res){
                     post:post
                 },
                 message:"Post created"
-            })
+            });
         }
         
         req.flash('success','Post Published');
