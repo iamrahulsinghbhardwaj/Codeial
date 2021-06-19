@@ -25,11 +25,12 @@ const chatServer=require('http').Server(app);
 const chatSockets=require('./config/chat_sockets').chatSockets(chatServer);
 chatServer.listen(5000);
 console.log('chat server is listening on port 5000');
+
 const path=require('path');
 
 app.use(sassMiddleware({
-    src:path.join(__dirname,env.asset_path,'scss'),
-    dest:path.join(__dirname,env.asset_path,'css'), //destination
+    src:'./assests/scss',
+    dest:'./assests/css', //destination
     debug:true,  //show erros
     outputStyle:'extended',
     prefix:'/css'
@@ -40,7 +41,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(cookieParser());
 
 
-app.use(express.static(env.asset_path));
+app.use(express.static('./assests'));
 //make the upload path availabe to the browser
 app.use('/uploads',express.static(__dirname +'/uploads'));
 
