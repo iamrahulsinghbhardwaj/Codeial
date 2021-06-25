@@ -509,3 +509,8 @@
 [0mPOST /comments/create [32m200[0m 53.329 ms - 821[0m
 [0mGET /comments/destroy/60d60725f1efaf1ff0027637 [32m200[0m 18.638 ms - 78[0m
 [0mGET /posts/destroy/60d60723f1efaf1ff0027636 [32m200[0m 14.382 ms - 72[0m
+[0mGET / [32m200[0m 58.884 ms - 3328[0m
+[0mGET / [36m304[0m 15.445 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 8.509 ms - -[0m
+[0mPOST /users/create-session [36m302[0m 22.368 ms - 46[0m
+[0mGET / [32m200[0m 28.249 ms - 4456[0m
