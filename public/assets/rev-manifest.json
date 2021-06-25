@@ -4,5 +4,9 @@
   "css/header.css": "css/header-5624c7deef.css",
   "css/home.css": "css/home-bacaa64d3a.css",
   "css/layouts.css": "css/layouts-ad7fced993.css",
-  "css/user_profile.css": "css/user_profile-b1e1bd36fe.css"
-} 
+  "css/user_profile.css": "css/user_profile-b1e1bd36fe.css",
+  "js/chat_engine.js": "js/chat_engine-9fc85b2d48.js",
+  "js/home_posts.js": "js/home_posts-7c51ba3bc2.js",
+  "js/home_posts_comments.js": "js/home_posts_comments-28888a03c7.js",
+  "js/toogle_likes.js": "js/toogle_likes-6888e2eea1.js"
+}

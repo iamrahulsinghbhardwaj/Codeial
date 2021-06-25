@@ -59,7 +59,7 @@ gulp.task('images', function(done){
 
 
 // empty the public/assets directory
-gulp.task('clean:assesfts', function(done){
+gulp.task('clean:assests', function(done){
     del.sync('./public/assets');
     done();
 });
