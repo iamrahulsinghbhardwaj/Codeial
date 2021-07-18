@@ -26,3 +26,5 @@ You will also see any lint errors in the console.
 
 
 ![Codeial _ Sign Up - Google Chrome 7_18_2021 3_24_47 PM (1)](https://user-images.githubusercontent.com/42406373/126063312-5d0cfc4a-b8c4-48b8-8365-d3e6244dbe08.png)
+
+![Codeial _ Sign In - Google Chrome 7_18_2021 3_02_51 PM](https://user-images.githubusercontent.com/42406373/126063326-412b6a31-8574-4bad-b5f4-14ea6190bf05.png)
