@@ -23,3 +23,6 @@ You will also see any lint errors in the console.
 8. Node SASS Middleware
 9. Node Mailer
 10. Passport.js
+
+
+![Codeial _ Sign Up - Google Chrome 7_18_2021 3_24_47 PM (1)](https://user-images.githubusercontent.com/42406373/126063312-5d0cfc4a-b8c4-48b8-8365-d3e6244dbe08.png)
